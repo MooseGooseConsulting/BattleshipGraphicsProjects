@@ -27,13 +27,13 @@ pydantic-settings = "^2.0.0"
 tqdm = "^4.65.0"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.0.0"
-pytest-cov = "^4.0.0"
-black = "^23.0.0"
-isort = "^5.12.0"
-flake8 = "^6.0.0"
-mypy = "^1.5.0"
-pre-commit = "^3.3.0"
+pytest = "7.4.4"
+pytest-cov = "4.1.0"
+black = "23.12.1"
+isort = "5.13.2"
+flake8 = "6.1.0"
+mypy = "1.17.0"
+pre-commit = "3.8.0"
 
 [tool.poetry.scripts]
 warship-extract = "warship_extractor.cli:main"
